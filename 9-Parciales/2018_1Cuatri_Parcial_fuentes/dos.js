@@ -3,6 +3,6 @@ function mostrar()
 	var localidad;
 
 	nombre=document.getElementById('elNombre').value;
-	localidad=document.getElementById('')
-  alert(usted es)
+	localidad=document.getElementById('laLocalidad').value;
+  	alert("  usted es  " + nombre + "   y vive en la localidad de  " +localidad);
 }
