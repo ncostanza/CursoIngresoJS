@@ -5,9 +5,13 @@ function mostrar()
 
 	edad=document.getElementById('edad').value;
 
-	if(edad==15)
+	if (edad==15)
 	{
 		alert("niña bonita");
+	}
+	else
+	{
+		alert("No hay fiesta de quince");
 	}
 	
 }//FIN DE LA FUNCIÓN
@@ -29,7 +33,7 @@ function mostrar()
 	
 	&& "Y"	conjuncion
 	|| "o" "or" Disyuncion Inclusiva 
-	
+	!  "negacion"
 	A  B  &&  ||
 	v  v  v    v
 	v  f  f    v
